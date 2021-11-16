@@ -17,6 +17,9 @@ const SearchInput = ({ label, ...delegated }) => {
 
 const Label = styled.label`
   position: relative;
+  display: flex;
+  padding: 12px 0 6px;
+  align-items: baseline;
 `;
 
 const Input = styled.input`
